@@ -2,6 +2,15 @@
 Convert IP range to multi cidr
 
 # Example
+
+IP range.
+```
+"211.1.1.5-211.1.1.23";
+"211.1.1.5-211.1.1.6";
+"1.0.0.0-129.0.0.0";
+```
+
+Result after convertion.
 ```
 $ php iprange2cidr.php 
 array(4) {
